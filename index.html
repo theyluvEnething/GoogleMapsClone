@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+    <!-- Include the Mapbox Geocoder plugin -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css"
+        type="text/css"
+    />
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    
+    <title>Google Maps Clone</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #map {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* Move the search box to the top-right corner */
+        .mapboxgl-ctrl-geocoder {
+            position: absolute;
+            top: 20px;
+            left: 80px;
+            size: 5000px;
+            scale: 1.58;
+        }
+        .mapboxgl-ctrl.mapboxgl-ctrl-group {
+            position: absolute;
+            top: 29px;
+            left: 401px;
+            scale: 1.4;
+        }
+    </style>
+
+    <script src="script.js" defer> </script>
+
+</head>
+
+
+<!-- BODY -->
+<body>
+    
+    
+    <div id='map'></div>
+
+
+
+</body>
+</html>
