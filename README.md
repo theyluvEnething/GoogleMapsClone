@@ -1,3 +1,5 @@
 # A google maps clone using MapBox
 
-| !![initial page](res/image0.png) | ![searching for location](res/image0.png) |
+| Cat pics                            | Dog pics                            |
+| ----------------------------------- | ----------------------------------- |
+| !![initial page](res/image0.png) | ![searching for location](res/image1.png) |
