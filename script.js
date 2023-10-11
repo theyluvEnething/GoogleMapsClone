@@ -1,5 +1,6 @@
-mapboxgl.accessToken = '';
+mapboxgl.accessToken = 'Input your mapbox token';
 
+// Start Location if user has location disabled 
 var pin_location = [0, 0]
 
 navigator.geolocation.getCurrentPosition(   

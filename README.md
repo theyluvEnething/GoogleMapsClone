@@ -1,2 +1,3 @@
-# MapExplorer
- A google maps clone that can be used for 
+# A google maps clone using MapBox
+
+| !![initial page](res/image0.png) | ![searching for location](res/image0.png) |
